@@ -1,2 +1,2 @@
-# logo_guessing_game
-Web game to guess different sports logos
+#Sports Logo Guessing Game
+#This is a web game created with the assistance of ChatGPT. This is a test GitHub project. The game just involves cycling through the JSON, selecting a random team and logo, and presenting that to the user to guess. From here, the user has to guess a valid answer included in the JSON under "monikers". The monikers are both the city of the team, mascot, as well as nicknames for the team i.e. "Niners" is a valid guess for the "San Francisco 49ers".
