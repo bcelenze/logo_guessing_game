@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block meta %}
 <title>Sports Logo Guessing Game | NFL</title>
-<meta name="description" content="Try your hand at guessing the names of NFL team logos. See if you can score more than your friends and family.">
+<meta name="description" content="Try your hand at guessing the names of various team logos. See if you can score more than your friends and family.">
 
 
 {% endblock %}
@@ -24,9 +24,16 @@
 
     <!-- Game mode buttons with tooltips -->
     <div class="d-flex justify-content-center mt-3">
-        <button id="start-game" class="btn btn-primary me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Start a timed game with 30 seconds on the clock!">Start Timed Game</button>
-        <button id="free-play" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Play without time limits and guess at your own pace!">Free Play</button>
+        <select id="league-filter" class="form-select me-2" style="max-width: 200px;">
+            <option value="NFL" selected>NFL</option>
+            <option value="UFL">UFL</option>
+            <option value="NHL">NHL</option>
+            <!-- Add other leagues as options -->
+        </select>
+        <button id="start-game" class="btn btn-primary me-2" data-bs-toggle="tooltip" title="Start a timed game with 30 seconds on the clock!">Start Timed Game</button>
+        <button id="free-play" class="btn btn-info" data-bs-toggle="tooltip" title="Play without time limits and guess at your own pace!">Free Play</button>
     </div>
+
 
     <!-- Timer and score display -->
     <div class="d-flex justify-content-center m-3">
@@ -107,6 +114,7 @@
     function startTimedGame() {
         isFreePlay = false;
         score = 0;
+        clearInterval(timerInterval)
         timeLeft = 30;
         usedTeams.clear();
         document.getElementById('score').textContent = 'Score: 0';
@@ -192,10 +200,22 @@
             alert('Link copied to clipboard!');
         }
 
+    document.getElementById('league-filter').addEventListener('change', loadNewLogo);
+
     function loadNewLogo() {
-        fetch('/get_logo')
-            .then(response => response.json())
+        const selectedLeague = document.getElementById('league-filter').value;
+
+        fetch(`/get_logo?league=${selectedLeague}`)
+            .then(response => {
+                if (!response.ok) throw new Error('No teams available for this league');
+                return response.json();
+            })
             .then(data => {
+                if (data.error) {
+                    alert(data.error);  // Optional: display an alert if no teams are available
+                    return;
+                }
+
                 if (usedTeams.has(data.team)) {
                     loadNewLogo();
                     return;
@@ -209,11 +229,11 @@
                 lastGuess = '';
 
                 usedTeams.add(data.team);
-
                 document.getElementById('submit-guess-btn').disabled = false; // Enable the Submit Guess button
             })
             .catch(error => console.error('Error:', error));
     }
+
 
     function submitGuess() {
         const guess = document.getElementById('team-guess').value;
