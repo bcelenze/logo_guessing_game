@@ -3611,5 +3611,545 @@ teams = [
     "sport": "Basketball",
     "logo": "https://upload.wikimedia.org/wikipedia/en/7/79/Washington_Mystics_logo.svg",
     "affiliate": ""
+  },
+  {
+    "team": "Arizona Diamondbacks",
+    "moniker": [
+      "Arizona",
+      "Diamondbacks"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "West",
+    "stadium": "Chase Field",
+    "location": "Phoenix, Arizona",
+    "longitude": -112.0667,
+    "latitude": 33.4458,
+    "website": "https://www.mlb.com/dbacks",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Arizona_Diamondbacks_logo_teal.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Atlanta Braves",
+    "moniker": [
+      "Atlanta",
+      "Braves"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "East",
+    "stadium": "Truist Park",
+    "location": "Cumberland, Georgia",
+    "longitude": -84.4695,
+    "latitude": 33.8906,
+    "website": "https://www.mlb.com/braves",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/f/f2/Atlanta_Braves.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Baltimore Orioles",
+    "moniker": [
+      "Baltimore",
+      "Orioles"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "East",
+    "stadium": "Oriole Park at Camden Yards",
+    "location": "Baltimore, Maryland",
+    "longitude": -76.6217,
+    "latitude": 39.2839,
+    "website": "https://www.mlb.com/orioles",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Baltimore_Orioles_Script.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Boston Red Sox",
+    "moniker": [
+      "Boston",
+      "Red Sox"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "East",
+    "stadium": "Fenway Park",
+    "location": "Boston, Massachusetts",
+    "longitude": -71.0973,
+    "latitude": 42.3465,
+    "website": "https://www.mlb.com/redsox",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/6/6d/RedSoxPrimary_HangingSocks.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Chicago White Sox",
+    "moniker": [
+      "Chicago",
+      "White Sox"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "Central",
+    "stadium": "Guaranteed Rate Field",
+    "location": "Chicago, Illinois",
+    "longitude": -87.6337,
+    "latitude": 41.8299,
+    "website": "https://www.mlb.com/whitesox",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Chicago_White_Sox.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Chicago Cubs",
+    "moniker": [
+      "Chicago",
+      "Cubs"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "Central",
+    "stadium": "Wrigley Field",
+    "location": "Chicago, Illinois",
+    "longitude": -87.6555,
+    "latitude": 41.9484,
+    "website": "https://www.mlb.com/cubs",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/80/Chicago_Cubs_logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Cincinnati Reds",
+    "moniker": [
+      "Cincinnati",
+      "Reds"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "Central",
+    "stadium": "Great American Ball Park",
+    "location": "Cincinnati, Ohio",
+    "longitude": -84.5086,
+    "latitude": 39.0979,
+    "website": "https://www.mlb.com/reds",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/01/Cincinnati_Reds_Logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Cleveland Guardians",
+    "moniker": [
+      "Cleveland",
+      "Guardians"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "Central",
+    "stadium": "Progressive Field",
+    "location": "Cleveland, Ohio",
+    "longitude": -81.6853,
+    "latitude": 41.4958,
+    "website": "https://www.mlb.com/guardians",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/a/a9/Guardians_winged_%22G%22.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Colorado Rockies",
+    "moniker": [
+      "Colorado",
+      "Rockies"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "West",
+    "stadium": "Coors Field",
+    "location": "Denver, Colorado",
+    "longitude": -104.994,
+    "latitude": 39.7561,
+    "website": "https://www.mlb.com/rockies",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/c/c0/Colorado_Rockies_full_logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Detroit Tigers",
+    "moniker": [
+      "Detroit",
+      "Tigers"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "Central",
+    "stadium": "Comerica Park",
+    "location": "Detroit, Michigan",
+    "longitude": -83.0487,
+    "latitude": 42.3391,
+    "website": "https://www.mlb.com/tigers",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Detroit_Tigers_logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Houston Astros",
+    "moniker": [
+      "Houston",
+      "Astros"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "West",
+    "stadium": "Minute Maid Park",
+    "location": "Houston, Texas",
+    "longitude": -95.3555,
+    "latitude": 29.7572,
+    "website": "https://www.mlb.com/astros",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Houston-Astros-Logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Kansas City Royals",
+    "moniker": [
+      "Kansas City",
+      "Royals"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "Central",
+    "stadium": "Kauffman Stadium",
+    "location": "Kansas City, Missouri",
+    "longitude": -94.4801,
+    "latitude": 39.0519,
+    "website": "https://www.mlb.com/royals",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Kansas_City_Royals_Primary_Logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Los Angeles Angels",
+    "moniker": [
+      "Los Angeles",
+      "Angels"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "West",
+    "stadium": "Angel Stadium",
+    "location": "Anaheim, California",
+    "longitude": -117.8825,
+    "latitude": 33.8003,
+    "website": "https://www.mlb.com/angels",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Los_Angeles_Angels_curved_wordmark.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Los Angeles Dodgers",
+    "moniker": [
+      "Los Angeles",
+      "Dodgers"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "West",
+    "stadium": "Dodger Stadium",
+    "location": "Los Angeles, California",
+    "longitude": -118.2391,
+    "latitude": 34.0739,
+    "website": "https://www.mlb.com/dodgers",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Los_Angeles_Dodgers_Logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Miami Marlins",
+    "moniker": [
+      "Miami",
+      "Marlins"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "East",
+    "stadium": "loanDepot park",
+    "location": "Miami, Florida",
+    "longitude": -80.2389,
+    "latitude": 25.777,
+    "website": "https://www.mlb.com/marlins",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/f/fd/Marlins_team_logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Milwaukee Brewers",
+    "moniker": [
+      "Milwaukee",
+      "Brewers"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "Central",
+    "stadium": "American Family Field",
+    "location": "Milwaukee, Wisconsin",
+    "longitude": -87.9712,
+    "latitude": 43.0285,
+    "website": "https://www.mlb.com/brewers",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/b/b8/Milwaukee_Brewers_logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Minnesota Twins",
+    "moniker": [
+      "Minnesota",
+      "Twins"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "Central",
+    "stadium": "Target Field",
+    "location": "Minneapolis, Minnesota",
+    "longitude": -93.2775,
+    "latitude": 44.9818,
+    "website": "https://www.mlb.com/twins",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/be/Minnesota_Twins_wordmark_logo_%282023_rebrand%29.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "New York Mets",
+    "moniker": [
+      "New York",
+      "Mets"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "East",
+    "stadium": "Citi Field",
+    "location": "Flushing, New York",
+    "longitude": -73.8458,
+    "latitude": 40.7571,
+    "website": "https://www.mlb.com/mets",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/7/7b/New_York_Mets.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "New York Yankees",
+    "moniker": [
+      "New York",
+      "Yankees"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "East",
+    "stadium": "Yankee Stadium",
+    "location": "The Bronx, New York",
+    "longitude": -73.9262,
+    "latitude": 40.8296,
+    "website": "https://www.mlb.com/yankees",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fe/New_York_Yankees_Primary_Logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Oakland Athletics",
+    "moniker": [
+      "Oakland",
+      "Athletics"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "West",
+    "stadium": "RingCentral Coliseum",
+    "location": "Oakland, California",
+    "longitude": -122.2026,
+    "latitude": 37.7516,
+    "website": "https://www.mlb.com/athletics",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/d/da/Athletics_MLB_Logo.png",
+    "affiliate": ""
+  },
+  {
+    "team": "Philadelphia Phillies",
+    "moniker": [
+      "Philadelphia",
+      "Phillies"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "East",
+    "stadium": "Citizens Bank Park",
+    "location": "Philadelphia, Pennsylvania",
+    "longitude": -75.1662,
+    "latitude": 39.9056,
+    "website": "https://www.mlb.com/phillies",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/f/f0/Philadelphia_Phillies_%282019%29_logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Pittsburgh Pirates",
+    "moniker": [
+      "Pittsburgh",
+      "Pirates"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "Central",
+    "stadium": "PNC Park",
+    "location": "Pittsburgh, Pennsylvania",
+    "longitude": -80.0057,
+    "latitude": 40.4469,
+    "website": "https://www.mlb.com/pirates",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pittsburgh_Pirates_logo_2014.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "San Diego Padres",
+    "moniker": [
+      "San Diego",
+      "Padres"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "West",
+    "stadium": "Petco Park",
+    "location": "San Diego, California",
+    "longitude": -117.1571,
+    "latitude": 32.7076,
+    "website": "https://www.mlb.com/padres",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e2/SD_Logo_Brown.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "San Francisco Giants",
+    "moniker": [
+      "San Francisco",
+      "Giants"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "West",
+    "stadium": "Oracle Park",
+    "location": "San Francisco, California",
+    "longitude": -122.3893,
+    "latitude": 37.7786,
+    "website": "https://www.mlb.com/giants",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/5/58/San_Francisco_Giants_Logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Seattle Mariners",
+    "moniker": [
+      "Seattle",
+      "Mariners"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "West",
+    "stadium": "T-Mobile Park",
+    "location": "Seattle, Washington",
+    "longitude": -122.3321,
+    "latitude": 47.5914,
+    "website": "https://www.mlb.com/mariners",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/6/6d/Seattle_Mariners_logo_%28low_res%29.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "St. Louis Cardinals",
+    "moniker": [
+      "St. Louis",
+      "Cardinals"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "Central",
+    "stadium": "Busch Stadium",
+    "location": "St. Louis, Missouri",
+    "longitude": -90.1938,
+    "latitude": 38.6226,
+    "website": "https://www.mlb.com/cardinals",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/9/9d/St._Louis_Cardinals_logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Tampa Bay Rays",
+    "moniker": [
+      "Tampa Bay",
+      "Rays"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "East",
+    "stadium": "Tropicana Field",
+    "location": "St. Petersburg, Florida",
+    "longitude": -82.6493,
+    "latitude": 27.7672,
+    "website": "https://www.mlb.com/rays",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Tampa_Bay_Rays_Logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Texas Rangers",
+    "moniker": [
+      "Texas",
+      "Rangers"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "West",
+    "stadium": "Globe Life Field",
+    "location": "Arlington, Texas",
+    "longitude": -97.0828,
+    "latitude": 32.7473,
+    "website": "https://www.mlb.com/rangers",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/4/41/Texas_Rangers.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Toronto Blue Jays",
+    "moniker": [
+      "Toronto",
+      "Blue Jays"
+    ],
+    "league": "MLB",
+    "conference": "American League",
+    "division": "East",
+    "stadium": "Rogers Centre",
+    "location": "Toronto, Ontario",
+    "longitude": -79.347,
+    "latitude": 43.651,
+    "website": "https://www.mlb.com/bluejays",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/c/cc/Toronto_Blue_Jay_Primary_Logo.svg",
+    "affiliate": ""
+  },
+  {
+    "team": "Washington Nationals",
+    "moniker": [
+      "Washington",
+      "Nationals"
+    ],
+    "league": "MLB",
+    "conference": "National League",
+    "division": "East",
+    "stadium": "Nationals Park",
+    "location": "Washington, D.C.",
+    "longitude": -77.0075,
+    "latitude": 38.873,
+    "website": "https://www.mlb.com/nationals",
+    "sport": "Baseball",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Washington_Nationals_logo.svg",
+    "affiliate": ""
   }
 ]
